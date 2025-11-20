@@ -1,0 +1,225 @@
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_135125.jpg", "zone_name": "Zone-A", "cameraid": "CAM_1"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135125.jpg", "cameraid": "CAM_10", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_135125.jpg", "cameraid": "CAM_8", "timestamp": "2025-10-31 13:51:25"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135125.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 16, "snapshot_path": "/snapshots/crowd/20251031_135125.jpg", "cameraid": "CAM_15"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135130.jpg", "zone_name": "Zone-B", "cameraid": "CAM_12"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251031_135130.jpg", "cameraid": "CAM_18", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_135130.jpg", "cameraid": "CAM_17", "timestamp": "2025-10-31 13:51:30"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_135130.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_7"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 23, "snapshot_path": "/snapshots/crowd/20251031_135130.jpg", "cameraid": "CAM_9"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_135135.jpg", "zone_name": "Zone-B", "cameraid": "CAM_13"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251031_135135.jpg", "cameraid": "CAM_18", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251031_135135.jpg", "cameraid": "CAM_8", "timestamp": "2025-10-31 13:51:35"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135135.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_7"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 26, "snapshot_path": "/snapshots/crowd/20251031_135135.jpg", "cameraid": "CAM_3"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135140.jpg", "zone_name": "Zone-B", "cameraid": "CAM_7"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135140.jpg", "cameraid": "CAM_7", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_135140.jpg", "cameraid": "CAM_4", "timestamp": "2025-10-31 13:51:40"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135140.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_6"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 10, "snapshot_path": "/snapshots/crowd/20251031_135140.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135145.jpg", "zone_name": "Zone-B", "cameraid": "CAM_14"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135145.jpg", "cameraid": "CAM_11", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_135145.jpg", "cameraid": "CAM_1", "timestamp": "2025-10-31 13:51:45"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135145.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_10"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251031_135145.jpg", "cameraid": "CAM_7"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_135150.jpg", "zone_name": "Zone-D", "cameraid": "CAM_8"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135150.jpg", "cameraid": "CAM_15", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_135150.jpg", "cameraid": "CAM_14", "timestamp": "2025-10-31 13:51:50"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_135150.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_12"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 22, "snapshot_path": "/snapshots/crowd/20251031_135150.jpg", "cameraid": "CAM_12"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135155.jpg", "zone_name": "Zone-A", "cameraid": "CAM_2"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251031_135155.jpg", "cameraid": "CAM_14", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_135155.jpg", "cameraid": "CAM_11", "timestamp": "2025-10-31 13:51:55"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_135155.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_17"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 18, "snapshot_path": "/snapshots/crowd/20251031_135155.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135200.jpg", "zone_name": "Zone-B", "cameraid": "CAM_18"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135200.jpg", "cameraid": "CAM_13", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_135200.jpg", "cameraid": "CAM_18", "timestamp": "2025-10-31 13:52:00"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135200.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_14"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 6, "snapshot_path": "/snapshots/crowd/20251031_135200.jpg", "cameraid": "CAM_10"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135205.jpg", "zone_name": "Zone-D", "cameraid": "CAM_15"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_135205.jpg", "cameraid": "CAM_3", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251031_135205.jpg", "cameraid": "CAM_13", "timestamp": "2025-10-31 13:52:05"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_135205.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_16"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 19, "snapshot_path": "/snapshots/crowd/20251031_135205.jpg", "cameraid": "CAM_6"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_135210.jpg", "zone_name": "Zone-C", "cameraid": "CAM_15"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251031_135210.jpg", "cameraid": "CAM_13", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_135210.jpg", "cameraid": "CAM_17", "timestamp": "2025-10-31 13:52:10"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135210.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_4"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 13, "snapshot_path": "/snapshots/crowd/20251031_135210.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135439.jpg", "zone_name": "Zone-B", "cameraid": "CAM_4"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135439.jpg", "cameraid": "CAM_9", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_135439.jpg", "cameraid": "CAM_4", "timestamp": "2025-10-31 13:54:39"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_135439.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_4"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 23, "snapshot_path": "/snapshots/crowd/20251031_135439.jpg", "cameraid": "CAM_1"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_135447.jpg", "zone_name": "Zone-B", "cameraid": "CAM_2"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_135447.jpg", "cameraid": "CAM_11", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251031_135447.jpg", "cameraid": "CAM_6", "timestamp": "2025-10-31 13:54:47"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_135447.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 8, "snapshot_path": "/snapshots/crowd/20251031_135447.jpg", "cameraid": "CAM_11"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140142.jpg", "zone_name": "Zone-B", "cameraid": "CAM_4"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251031_140142.jpg", "cameraid": "CAM_16", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_140142.jpg", "cameraid": "CAM_13", "timestamp": "2025-10-31 14:01:42"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_140142.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_5"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 6, "snapshot_path": "/snapshots/crowd/20251031_140142.jpg", "cameraid": "CAM_11"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140147.jpg", "zone_name": "Zone-C", "cameraid": "CAM_7"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140147.jpg", "cameraid": "CAM_3", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_140147.jpg", "cameraid": "CAM_4", "timestamp": "2025-10-31 14:01:47"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140147.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_11"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 18, "snapshot_path": "/snapshots/crowd/20251031_140147.jpg", "cameraid": "CAM_14"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140152.jpg", "zone_name": "Zone-C", "cameraid": "CAM_18"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140152.jpg", "cameraid": "CAM_17", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_140152.jpg", "cameraid": "CAM_10", "timestamp": "2025-10-31 14:01:52"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140152.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_12"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 6, "snapshot_path": "/snapshots/crowd/20251031_140152.jpg", "cameraid": "CAM_10"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140157.jpg", "zone_name": "Zone-C", "cameraid": "CAM_13"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_140157.jpg", "cameraid": "CAM_4", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_140157.jpg", "cameraid": "CAM_11", "timestamp": "2025-10-31 14:01:57"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140157.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_12"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251031_140157.jpg", "cameraid": "CAM_4"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140202.jpg", "zone_name": "Zone-C", "cameraid": "CAM_4"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251031_140202.jpg", "cameraid": "CAM_2", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_140202.jpg", "cameraid": "CAM_1", "timestamp": "2025-10-31 14:02:02"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140202.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_13"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 6, "snapshot_path": "/snapshots/crowd/20251031_140202.jpg", "cameraid": "CAM_3"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140207.jpg", "zone_name": "Zone-C", "cameraid": "CAM_18"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251031_140207.jpg", "cameraid": "CAM_8", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251031_140207.jpg", "cameraid": "CAM_7", "timestamp": "2025-10-31 14:02:07"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_140207.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_8"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 23, "snapshot_path": "/snapshots/crowd/20251031_140207.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140212.jpg", "zone_name": "Zone-B", "cameraid": "CAM_7"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251031_140212.jpg", "cameraid": "CAM_3", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251031_140212.jpg", "cameraid": "CAM_16", "timestamp": "2025-10-31 14:02:12"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_140212.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_8"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 8, "snapshot_path": "/snapshots/crowd/20251031_140212.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140217.jpg", "zone_name": "Zone-D", "cameraid": "CAM_2"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251031_140217.jpg", "cameraid": "CAM_3", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_140217.jpg", "cameraid": "CAM_2", "timestamp": "2025-10-31 14:02:17"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140217.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_4"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 22, "snapshot_path": "/snapshots/crowd/20251031_140217.jpg", "cameraid": "CAM_2"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140222.jpg", "zone_name": "Zone-A", "cameraid": "CAM_8"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251031_140222.jpg", "cameraid": "CAM_9", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_140222.jpg", "cameraid": "CAM_8", "timestamp": "2025-10-31 14:02:22"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140222.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_14"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 11, "snapshot_path": "/snapshots/crowd/20251031_140222.jpg", "cameraid": "CAM_7"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140227.jpg", "zone_name": "Zone-D", "cameraid": "CAM_14"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140227.jpg", "cameraid": "CAM_5", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_140227.jpg", "cameraid": "CAM_12", "timestamp": "2025-10-31 14:02:27"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140227.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_17"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 24, "snapshot_path": "/snapshots/crowd/20251031_140227.jpg", "cameraid": "CAM_18"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140232.jpg", "zone_name": "Zone-B", "cameraid": "CAM_10"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251031_140232.jpg", "cameraid": "CAM_2", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_140232.jpg", "cameraid": "CAM_17", "timestamp": "2025-10-31 14:02:32"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_140232.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_14"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 21, "snapshot_path": "/snapshots/crowd/20251031_140232.jpg", "cameraid": "CAM_16"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140237.jpg", "zone_name": "Zone-A", "cameraid": "CAM_13"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140237.jpg", "cameraid": "CAM_3", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251031_140237.jpg", "cameraid": "CAM_6", "timestamp": "2025-10-31 14:02:37"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140237.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_7"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 12, "snapshot_path": "/snapshots/crowd/20251031_140237.jpg", "cameraid": "CAM_5"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251031_140242.jpg", "zone_name": "Zone-C", "cameraid": "CAM_17"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140242.jpg", "cameraid": "CAM_9", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251031_140242.jpg", "cameraid": "CAM_10", "timestamp": "2025-10-31 14:02:42"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251031_140242.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 20, "snapshot_path": "/snapshots/crowd/20251031_140242.jpg", "cameraid": "CAM_17"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251031_140247.jpg", "zone_name": "Zone-D", "cameraid": "CAM_14"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251031_140247.jpg", "cameraid": "CAM_2", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251031_140247.jpg", "cameraid": "CAM_13", "timestamp": "2025-10-31 14:02:47"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251031_140247.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_5"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 28, "snapshot_path": "/snapshots/crowd/20251031_140247.jpg", "cameraid": "CAM_2"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_172942.jpg", "zone_name": "Zone-C", "cameraid": "CAM_16"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251104_172942.jpg", "cameraid": "CAM_10", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_172942.jpg", "cameraid": "CAM_6", "timestamp": "2025-11-04 17:29:42"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_172942.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 12, "snapshot_path": "/snapshots/crowd/20251104_172942.jpg", "cameraid": "CAM_10"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_172947.jpg", "zone_name": "Zone-B", "cameraid": "CAM_15"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_172947.jpg", "cameraid": "CAM_1", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251104_172947.jpg", "cameraid": "CAM_14", "timestamp": "2025-11-04 17:29:47"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_172947.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_10"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251104_172947.jpg", "cameraid": "CAM_15"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_172952.jpg", "zone_name": "Zone-A", "cameraid": "CAM_6"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251104_172952.jpg", "cameraid": "CAM_11", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_172952.jpg", "cameraid": "CAM_1", "timestamp": "2025-11-04 17:29:52"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_172952.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_8"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 11, "snapshot_path": "/snapshots/crowd/20251104_172952.jpg", "cameraid": "CAM_14"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_172957.jpg", "zone_name": "Zone-D", "cameraid": "CAM_14"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_172957.jpg", "cameraid": "CAM_14", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_172957.jpg", "cameraid": "CAM_6", "timestamp": "2025-11-04 17:29:57"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_172957.jpg", "zone_name": "Exit_Zone_1", "cameraid": "CAM_18"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 20, "snapshot_path": "/snapshots/crowd/20251104_172957.jpg", "cameraid": "CAM_17"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173002.jpg", "zone_name": "Zone-C", "cameraid": "CAM_17"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251104_173002.jpg", "cameraid": "CAM_6", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_173002.jpg", "cameraid": "CAM_9", "timestamp": "2025-11-04 17:30:02"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_173002.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_7"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 16, "snapshot_path": "/snapshots/crowd/20251104_173002.jpg", "cameraid": "CAM_13"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173007.jpg", "zone_name": "Zone-D", "cameraid": "CAM_9"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251104_173007.jpg", "cameraid": "CAM_17", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173007.jpg", "cameraid": "CAM_2", "timestamp": "2025-11-04 17:30:07"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173007.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 19, "snapshot_path": "/snapshots/crowd/20251104_173007.jpg", "cameraid": "CAM_2"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173012.jpg", "zone_name": "Zone-B", "cameraid": "CAM_17"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_173012.jpg", "cameraid": "CAM_1", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173012.jpg", "cameraid": "CAM_2", "timestamp": "2025-11-04 17:30:12"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173012.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_12"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 21, "snapshot_path": "/snapshots/crowd/20251104_173012.jpg", "cameraid": "CAM_9"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173017.jpg", "zone_name": "Zone-B", "cameraid": "CAM_9"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251104_173017.jpg", "cameraid": "CAM_5", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251104_173017.jpg", "cameraid": "CAM_3", "timestamp": "2025-11-04 17:30:17"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173017.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_14"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 24, "snapshot_path": "/snapshots/crowd/20251104_173017.jpg", "cameraid": "CAM_8"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173022.jpg", "zone_name": "Zone-B", "cameraid": "CAM_9"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_173022.jpg", "cameraid": "CAM_9", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173022.jpg", "cameraid": "CAM_12", "timestamp": "2025-11-04 17:30:22"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_173022.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_4"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 17, "snapshot_path": "/snapshots/crowd/20251104_173022.jpg", "cameraid": "CAM_12"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173027.jpg", "zone_name": "Zone-B", "cameraid": "CAM_12"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_173027.jpg", "cameraid": "CAM_8", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_173027.jpg", "cameraid": "CAM_11", "timestamp": "2025-11-04 17:30:27"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173027.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_5"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251104_173027.jpg", "cameraid": "CAM_4"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173033.jpg", "zone_name": "Zone-A", "cameraid": "CAM_5"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251104_173033.jpg", "cameraid": "CAM_7", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_173033.jpg", "cameraid": "CAM_3", "timestamp": "2025-11-04 17:30:33"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173033.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_18"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251104_173033.jpg", "cameraid": "CAM_7"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173038.jpg", "zone_name": "Zone-C", "cameraid": "CAM_7"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251104_173038.jpg", "cameraid": "CAM_14", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173038.jpg", "cameraid": "CAM_1", "timestamp": "2025-11-04 17:30:38"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_173038.jpg", "zone_name": "Exit_Zone_3", "cameraid": "CAM_14"}
+{"type": "CROWD_DETECTION", "gathered_more": false, "alarm_triggered": false, "mob_count": 7, "snapshot_path": "/snapshots/crowd/20251104_173038.jpg", "cameraid": "CAM_11"}
+{"type": "PPE_DETECTION", "helmet": true, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173043.jpg", "zone_name": "Zone-A", "cameraid": "CAM_4"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-D", "snapshot_path": "/snapshots/fall/20251104_173043.jpg", "cameraid": "CAM_1", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173043.jpg", "cameraid": "CAM_10", "timestamp": "2025-11-04 17:30:43"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173043.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_18"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 14, "snapshot_path": "/snapshots/crowd/20251104_173043.jpg", "cameraid": "CAM_6"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173048.jpg", "zone_name": "Zone-B", "cameraid": "CAM_6"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251104_173048.jpg", "cameraid": "CAM_15", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Loading", "snapshot_path": "/snapshots/forklift/20251104_173048.jpg", "cameraid": "CAM_1", "timestamp": "2025-11-04 17:30:48"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_173048.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_16"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 18, "snapshot_path": "/snapshots/crowd/20251104_173048.jpg", "cameraid": "CAM_3"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173053.jpg", "zone_name": "Zone-D", "cameraid": "CAM_4"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251104_173053.jpg", "cameraid": "CAM_4", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Storage", "snapshot_path": "/snapshots/forklift/20251104_173053.jpg", "cameraid": "CAM_18", "timestamp": "2025-11-04 17:30:53"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173053.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_7"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 22, "snapshot_path": "/snapshots/crowd/20251104_173053.jpg", "cameraid": "CAM_4"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173058.jpg", "zone_name": "Zone-D", "cameraid": "CAM_6"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-C", "snapshot_path": "/snapshots/fall/20251104_173058.jpg", "cameraid": "CAM_2", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251104_173058.jpg", "cameraid": "CAM_6", "timestamp": "2025-11-04 17:30:58"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173058.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_9"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 14, "snapshot_path": "/snapshots/crowd/20251104_173058.jpg", "cameraid": "CAM_14"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": false, "snapshot_path": "/snapshots/ppe/20251104_173103.jpg", "zone_name": "Zone-B", "cameraid": "CAM_14"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251104_173103.jpg", "cameraid": "CAM_4", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251104_173103.jpg", "cameraid": "CAM_3", "timestamp": "2025-11-04 17:31:03"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": false, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173103.jpg", "zone_name": "Exit_Zone_2", "cameraid": "CAM_1"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 16, "snapshot_path": "/snapshots/crowd/20251104_173103.jpg", "cameraid": "CAM_16"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": false, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173108.jpg", "zone_name": "Zone-B", "cameraid": "CAM_3"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-A", "snapshot_path": "/snapshots/fall/20251104_173108.jpg", "cameraid": "CAM_14", "alarm_triggered": true}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Assembly", "snapshot_path": "/snapshots/forklift/20251104_173108.jpg", "cameraid": "CAM_18", "timestamp": "2025-11-04 17:31:08"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": true, "snapshot_path": "/snapshots/emergency/20251104_173108.jpg", "zone_name": "Exit_Zone_4", "cameraid": "CAM_4"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 26, "snapshot_path": "/snapshots/crowd/20251104_173108.jpg", "cameraid": "CAM_14"}
+{"type": "PPE_DETECTION", "helmet": false, "vest": true, "glasses": true, "snapshot_path": "/snapshots/ppe/20251104_173113.jpg", "zone_name": "Zone-C", "cameraid": "CAM_15"}
+{"type": "FALL_DETECTION", "zone_name": "Zone-B", "snapshot_path": "/snapshots/fall/20251104_173113.jpg", "cameraid": "CAM_3", "alarm_triggered": false}
+{"type": "FORKLIFT_DETECTION", "object_name": "Forklift", "zone": "Walkway", "snapshot_path": "/snapshots/forklift/20251104_173113.jpg", "cameraid": "CAM_8", "timestamp": "2025-11-04 17:31:13"}
+{"type": "EMERGENCY_EXIT", "gate_blockage": true, "alarm_triggered": false, "snapshot_path": "/snapshots/emergency/20251104_173113.jpg", "zone_name": "Exit_Zone_5", "cameraid": "CAM_5"}
+{"type": "CROWD_DETECTION", "gathered_more": true, "alarm_triggered": true, "mob_count": 13, "snapshot_path": "/snapshots/crowd/20251104_173113.jpg", "cameraid": "CAM_7"}

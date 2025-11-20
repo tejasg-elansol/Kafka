@@ -1,0 +1,969 @@
+[
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "gas",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "gas",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 18,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 18,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": true,
+    "glasses": false,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-1",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "smoke",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 18,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 5,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 16,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "oil",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 2,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 17,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 14,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Forklift",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": true,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": true,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "fire",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "gas",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 7,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "oil",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Forklift",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "gas",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-1",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Crane",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": false,
+    "glasses": true,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 15,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 1,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-2",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": true,
+    "alarm_triggered": true,
+    "mob_count": 13,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": true,
+    "glasses": false,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Forklift",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-1",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-2",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": true,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 2,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": true,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 4,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-C",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-1",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": false,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Fall_or_Laydown",
+    "snapshot_path": "C:/safety_images/fall_event.jpg",
+    "zone_name": "Work-Area-1",
+    "camera_id": "CAM_FALL_03",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": true,
+    "glasses": true,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "gas",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-1",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Emergency_Exit_Blockage",
+    "blockage": false,
+    "alarm_triggered": false,
+    "snapshot_path": "C:/safety_images/exit_blockage.jpg",
+    "zone_name": "Exit-2",
+    "camera_id": "CAM_EXIT_05"
+  },
+  {
+    "event_type": "Fire_Smoke_Oil_Gas_Leak",
+    "object_name": "smoke",
+    "snapshot_path": "C:/safety_images/fire_event.jpg",
+    "zone_name": "Zone-2",
+    "camera_id": "CAM_FIRE_02",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "Crowd_Gathering",
+    "gathered_more": false,
+    "alarm_triggered": false,
+    "mob_count": 3,
+    "snapshot_path": "C:/safety_images/crowd_event.jpg",
+    "zone_name": "Hazard-Zone-1",
+    "camera_id": "CAM_CROWD_06"
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Truck",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-2",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": false
+  },
+  {
+    "event_type": "Vehicle_in_Walkway",
+    "object_name": "Forklift",
+    "snapshot_path": "C:/safety_images/vehicle_snapshot.jpg",
+    "zone": "Walkway-1",
+    "camera_id": "CAM_VEH_04",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": false,
+    "vest": false,
+    "glasses": true,
+    "zone_name": "Zone-B",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": true
+  },
+  {
+    "event_type": "PPE_kit_detection",
+    "helmet": true,
+    "vest": false,
+    "glasses": false,
+    "zone_name": "Zone-A",
+    "snapshot_path": "C:/safety_images/ppe_snapshot.jpg",
+    "camera_id": "CAM_PPE_01",
+    "alarm_triggered": false
+  }
+]

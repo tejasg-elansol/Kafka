@@ -19,6 +19,7 @@ import time
 from typing import Any, Dict, List, Optional
 import numpy as np
 from datetime import datetime
+from ultralytics import YOLO
 
 try:
     import torch
@@ -26,9 +27,9 @@ except:
     torch = None
 
 
-# ============================================================
+
 # PPE CLASS
-# ============================================================
+
 class PPE:
     """
     PPE class manages:
@@ -50,24 +51,22 @@ class PPE:
         self._lock = threading.RLock()
         self._ref_count = 0
 
-    # ============================================================
+   
     # LOAD MODEL
-    # ============================================================
+   
     def load_model(self):
         with self._lock:
             if self._loaded:
                 return
 
             # Load Ultralytics YOLO best.pt
-            from ultralytics import YOLO
             self.model = YOLO(self.model_path)
 
             self._loaded = True
             print(f"[PPE] Model loaded on {self.device}")
 
-    # ============================================================
+    
     # RELEASE MODEL
-    # ============================================================
     def release_model(self):
         with self._lock:
             if not self._loaded:
@@ -80,9 +79,8 @@ class PPE:
             self._loaded = False
             print("[PPE] Model released")
 
-    # ============================================================
     # INTERNAL USAGE LOCK
-    # ============================================================
+    
     def _acquire(self):
         with self._lock:
             if not self._loaded:
@@ -93,10 +91,10 @@ class PPE:
         with self._lock:
             self._ref_count = max(0, self._ref_count - 1)
 
-    # ============================================================
+    
     # BATCH INFERENCE
     # frames: [{"image": np.ndarray, "frame_id": int, "timestamp": str}, ...]
-    # ============================================================
+   
     def batch_infer(self, frames: List[Dict[str, Any]], batch_size: int = 8) -> List[Dict[str, Any]]:
         if not self._loaded:
             raise RuntimeError("Call load_model() before inference.")
@@ -171,9 +169,9 @@ class PPE:
 
         return kafka_messages
 
-    # ============================================================
+    
     # SEND TO KAFKA
-    # ============================================================
+    
     def send_to_kafka(self, producer, topic: str, payloads: List[bytes]):
         for payload in payloads:
             producer.send(

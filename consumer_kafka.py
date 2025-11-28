@@ -1,101 +1,3 @@
-# from kafka import KafkaConsumer
-# import json
-# import base64
-# import numpy as np
-# from datetime import datetime
-# import cv2
-
-# # ==============================
-# # 1. Kafka Consumer Setup
-# # ==============================
-# consumer = KafkaConsumer(
-#     'safety.ppe',
-#     bootstrap_servers=['192.168.0.56:9092'],
-#     auto_offset_reset='latest',
-#     enable_auto_commit=True,
-#     group_id='ppe-consumer-group-v2',
-#     value_deserializer=lambda x: json.loads(x.decode('utf-8'))
-# )
-
-# print("🚀 PPE Consumer started... Listening to 'safety.ppe' topic\n")
-# print("-" * 80)
-
-# # ==============================
-# # 2. Consume & Display Messages
-# # ==============================
-# try:
-#     message_count = 0
-#     partition_stats = {}
-    
-#     for message in consumer:
-#         message_count += 1
-        
-#         # Logging
-#         topic = message.topic
-#         partition = message.partition
-#         offset = message.offset
-#         timestamp = message.timestamp
-#         value = message.value
-        
-#         # Track partition stats
-#         if partition not in partition_stats:
-#             partition_stats[partition] = 0
-#         partition_stats[partition] += 1
-
-#         # ==============================
-#         # Decode Frame from Base64
-#         # ==============================
-        
-#         # Decode frame content
-#         frame_b64 = value.get("frame_320x320")
-
-#         if frame_b64:
-#             try:
-#                 img_bytes = base64.b64decode(frame_b64)
-#                 np_arr = np.frombuffer(img_bytes, np.uint8)
-#                 frame_cv2 = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
-
-#                 if frame_cv2 is not None:
-#                     cv2.imshow("Received Frame", frame_cv2)
-#                     if cv2.waitKey(1) & 0xFF == ord('q'):
-#                         break
-
-#             except Exception as e:
-#                 print("Frame decode error ❌:", e)
-#         else:
-#             print("No frame field ❌")
-
-
-#         # ==============================
-#         # Print Message Metadata
-#         # ==============================
-#         print(f"\n📨 Message #{message_count}")
-#         print(f"Topic: {topic} | Partition: {partition} | Offset: {offset}")
-#         print(f"Timestamp: {datetime.fromtimestamp(timestamp/1000).strftime('%Y-%m-%d %H:%M:%S')}")
-#         print(f"Data: {json.dumps(value, indent=2)}")
-#         print("-" * 80)
-        
-#         # Show stats every 10 messages
-#         if message_count % 10 == 0:
-#             print(f"\n📊 Partition Distribution after {message_count} messages:")
-#             for p, count in sorted(partition_stats.items()):
-#                 print(f"   Partition {p}: {count} messages")
-#             print("-" * 80)
-
-# except KeyboardInterrupt:
-#     print(f"\n\n🛑 Consumer stopped manually.")
-#     print(f"\n📊 Final Statistics:")
-#     print(f"Total messages consumed: {message_count}")
-#     print(f"\nPartition Distribution:")
-#     for p, count in sorted(partition_stats.items()):
-#         percentage = (count / message_count) * 100
-#         print(f"   Partition {p}: {count} messages ({percentage:.1f}%)")
-
-# finally:
-#     consumer.close()
-#     cv2.destroyAllWindows()
-#     print("✅ Kafka consumer closed.")
-
 from kafka import KafkaConsumer
 import json
 import base64
@@ -111,7 +13,7 @@ consumer = KafkaConsumer(
     bootstrap_servers=['192.168.0.56:9092'],
     auto_offset_reset='latest',
     enable_auto_commit=True,
-    group_id='ppe-consumer-group-v2',
+    group_id='ppe-consumer-group-v10',
     value_deserializer=lambda x: json.loads(x.decode('utf-8'))
 )
 
@@ -140,32 +42,19 @@ try:
         # ==============================
         # Decode Frame + MEASURE SIZE
         # ==============================
-        frame_b64 = value.get("frame_320x320")
+        frame_b64 = value.get("frame")
 
         if frame_b64:
-
-            # 🔹 1. Base64 size (Kafka payload)
-            b64_bytes = len(frame_b64)
-            print(f"📦 Base64 Size: {b64_bytes/1024:.2f} KB")
 
             try:
                 # Decode base64 → raw image bytes
                 img_bytes = base64.b64decode(frame_b64)
-
-                # 🔹 2. Raw encoded image size (JPEG/PNG)
-                print(f"🖼 Raw Image Size: {len(img_bytes)/1024:.2f} KB")
 
                 # Convert buffer → cv2 frame
                 np_arr = np.frombuffer(img_bytes, np.uint8)
                 frame_cv2 = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
 
                 if frame_cv2 is not None:
-                    # 🔹 3. Uncompressed frame size
-                    h, w, c = frame_cv2.shape
-                    uncompressed_bytes = h * w * c
-                    print(f"🧮 Uncompressed Size: {uncompressed_bytes/1024:.2f} KB "
-                          f"({uncompressed_bytes/(1024*1024):.3f} MB)")
-
                     # Show image
                     cv2.imshow("Received Frame", frame_cv2)
                     if cv2.waitKey(1) & 0xFF == ord('q'):

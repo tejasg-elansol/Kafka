@@ -6,7 +6,6 @@ import cv2
 from kafka import KafkaProducer
 from videoCapture import VideoCapture   # your existing capture class
 
-
 # ---- CAMERA URLs ----
 CAMERAS = {
     "cam1": "rtsp://admin:Elansol%402020@192.168.0.92:554/Streaming/Channels/102",
@@ -18,10 +17,7 @@ BATCH_SIZE = 8
 KAFKA_TOPIC = "raw_frames"
 KAFKA_BROKER = "192.168.0.56:9092"
 
-
-# ===============================
 #  Kafka Producer
-# ===============================
 producer = KafkaProducer(
     bootstrap_servers=[KAFKA_BROKER],
     value_serializer=lambda v: json.dumps(v).encode("utf-8"),
@@ -31,20 +27,14 @@ producer = KafkaProducer(
     acks="all"
 )
 
-
-# ======================================================
 #   Convert OpenCV frame → JPEG → Base64 for JSON
-# ======================================================
 def encode_frame_to_base64(frame):
     success, buffer = cv2.imencode(".jpg", frame, [cv2.IMWRITE_JPEG_QUALITY, 80])
     if not success:
         return None
     return base64.b64encode(buffer).decode("utf-8")
 
-
-# ======================================================
 #   Send one batch to Kafka
-# ======================================================
 def send_batch_to_kafka(camera_id, batch_frames):
 
     batch_id = str(uuid.uuid4())
@@ -81,10 +71,7 @@ def send_batch_to_kafka(camera_id, batch_frames):
 
     print(f"[KAFKA] Sent batch → cam={camera_id}, batch_id={batch_id}, frames={len(batch_frames)}")
 
-
-# ======================================================
 #   Main continuous capture + batch sending
-# ======================================================
 def continuous_batch_capture():
 
     # initialize VideoCapture objects
@@ -123,7 +110,6 @@ def continuous_batch_capture():
                 batches[cam_id] = []
 
         time.sleep(0.005)  # avoid CPU spike
-
 
 if __name__ == "__main__":
     continuous_batch_capture()

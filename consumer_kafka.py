@@ -108,7 +108,7 @@ consumer = KafkaConsumer(
     bootstrap_servers=['192.168.0.56:9092'],
     auto_offset_reset='latest',
     enable_auto_commit=True,
-    group_id='safety-universal-consumer-v2',
+    group_id='safety-universal-consumer-v3',
     value_deserializer=lambda x: json.loads(x.decode('utf-8'))
 )
 
@@ -180,7 +180,7 @@ try:
         print(f"Timestamp: {readable_ts}")
         print(f"Payload:\n{json.dumps(value, indent=2)}")
         print("-" * 80)
-
+        
         # Stats every 10 messages
         if message_count % 10 == 0:
             print(f"\n📊 Partition Distribution after {message_count} messages:")
